@@ -1,5 +1,5 @@
 <?php
-
+// init
 namespace developit\persianSlug;
 
 /**
