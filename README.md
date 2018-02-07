@@ -1,4 +1,4 @@
-yii2 persian slug
+yii2-persian-slug
 =================
 yii2 persian slug
 
@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \developit\persianSlug\AutoloadExample::widget(); ?>```
+<?= \developit\slug\AutoloadExample::widget(); ?>```

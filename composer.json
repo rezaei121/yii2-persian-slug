@@ -2,8 +2,8 @@
     "name": "developit/yii2-persian-slug",
     "description": "yii2 persian slug",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","developit","persian","slug"],
-    "license": "GPL-3.0-or-later",
+    "keywords": ["yii2","extension"],
+    "license": "LGPL-3.0+",
     "authors": [
         {
             "name": "ehsan rezaei",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "developit\\persianSlug\\": ""
+            "developit\\slug\\": ""
         }
     }
 }

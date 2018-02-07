@@ -1,6 +1,6 @@
 <?php
-// init
-namespace developit\persianSlug;
+
+namespace developit\slug;
 
 /**
  * This is just an example.
