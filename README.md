@@ -36,8 +36,9 @@ Once the extension is installed, simply use it in your code by  :
                 'attribute' => 'title',
             ],
         ];
-    }```
-    
+    }
+```
+
 License
 -------
 yii2-persian-slug is an open source project created by Ehsan Rezaei(http://www.developit.ir) that is licensed under GPL-3.0.
