@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist developit/yii2-persian-slug "*"
+composer require --prefer-dist developit/yii2-persian-slug "*"
 ```
 
 or add
@@ -28,4 +28,16 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \developit\slug\AutoloadExample::widget(); ?>```
+    public function behaviors()
+    {
+        return [
+            [
+                'class' => PesianSluggableBehavior::className(),
+                'attribute' => 'title',
+            ],
+        ];
+    }```
+    
+License
+-------
+yii2-persian-slug is an open source project created by Ehsan Rezaei(http://www.developit.ir) that is licensed under GPL-3.0.
