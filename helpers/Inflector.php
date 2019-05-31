@@ -24,7 +24,7 @@ class Inflector extends \yii\helpers\Inflector
      */
     public static function slug($string, $replacement = '-', $lowercase = true)
     {
-        $string = preg_replace('/[^a-zA-Z\x{0600}-\x{06FF}0-9=\s—–-]+/u', '', $string);
+        // $string = preg_replace('/[^a-zA-Z\x{0600}-\x{06FF}0-9=\s—–-]+/u', '', $string);
         $string = preg_replace('/[=\s—–-]+/u', $replacement, $string);
         $string = trim($string, $replacement);
 
